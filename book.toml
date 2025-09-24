@@ -1,0 +1,9 @@
+[book]
+authors = ["Emil Sadek"]
+language = "en"
+src = "src"
+title = "DuckDB by Example"
+
+[output.html]
+git-repository-url = "https://github.com/esadek/duckdb-by-example"
+cname = "duckdbbyexample.com"
