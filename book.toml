@@ -3,6 +3,7 @@ authors = ["Emil Sadek"]
 language = "en"
 src = "src"
 title = "DuckDB by Example"
+description = "Learn DuckDB with examples."
 
 [output.html]
 git-repository-url = "https://github.com/esadek/duckdb-by-example"
