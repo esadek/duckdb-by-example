@@ -1,7 +1,7 @@
 # DuckDB by Example
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/esadek/duckdb-by-example/mdbook.yml)](https://github.com/esadek/duckdb-by-example/actions/workflows/mdbook.yml)
-[![License](https://img.shields.io/badge/license-CC_BY_4.0-AAB2AB)](LICENSE)
+[![License](https://img.shields.io/badge/license-CC_BY_4.0-blue)](LICENSE)
 
 Learn DuckDB with examples.
 
