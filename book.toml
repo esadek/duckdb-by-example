@@ -7,4 +7,5 @@ description = "Learn DuckDB with examples."
 
 [output.html]
 git-repository-url = "https://github.com/esadek/duckdb-by-example"
+edit-url-template = "https://github.com/esadek/duckdb-by-example/edit/main/{path}"
 cname = "duckdbbyexample.com"
