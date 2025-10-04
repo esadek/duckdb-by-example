@@ -1,46 +1,46 @@
 # Selecting
 
-Select all columns from the `customers` table:
+Select all columns from the `penguins` table:
 
 ```sql
 SELECT *
-FROM customers;
+FROM penguins;
 ```
 
-Select the `first_name` and `city` columns from the `customers` table:
+Select the `species` and `island` columns from the `penguins` table:
 
 ```sql
 SELECT
-  first_name,
-  city
-FROM customers;
+  species,
+  island
+FROM penguins;
 ```
 
-Select the first 10 rows from the `customers` table:
+Select the first 10 rows from the `penguins` table:
 
 ```sql
 SELECT *
-FROM customers
+FROM penguins
 LIMIT 10;
 ```
 
-Select all unique `city` values from the `customers` table:
+Select all unique `species` values from the `penguins` table:
 
 ```sql
-SELECT DISTINCT city
-FROM customers;
+SELECT DISTINCT species
+FROM penguins;
 ```
 
-Select all columns except the `city` column from the `customers` table:
+Select all columns except the `island` column from the `penguins` table:
 
 ```sql
-SELECT * EXCLUDE (city)
-FROM customers;
+SELECT * EXCLUDE (island)
+FROM penguins;
 ```
 
-Select all columns from the `customers` table, but replace `city` with `lower(city)`:
+Select all columns from the `penguins` table, but replace `species` with `lower(species)`:
 
 ```sql
-SELECT * REPLACE (lower(city) AS city)
-FROM customers;
+SELECT * REPLACE (lower(species) AS species)
+FROM penguins;
 ```

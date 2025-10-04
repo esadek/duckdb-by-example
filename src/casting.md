@@ -1,13 +1,15 @@
 # Casting
 
-Cast a `VARCHAR` to an `INTEGER`:
+Cast the `bill_length_mm` column to `VARCHAR`:
 
 ```sql
-SELECT CAST('12' AS INTEGER);
+SELECT CAST(bill_length_mm AS VARCHAR)
+FROM penguins;
 ```
 
-Cast an `INTEGER` to a `BOOLEAN`:
+Cast the `body_mass_g` column to `DOUBLE`:
 
 ```sql
-SELECT 1::BOOLEAN;
+SELECT body_mass_g::DOUBLE
+FROM penguins;
 ```

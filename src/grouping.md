@@ -1,11 +1,11 @@
 # Grouping
 
-Count the number of entries in the `customers` table for each `first_name`:
+Count the number of entries in the `penguins` table for each `species`:
 
 ```sql
 SELECT
-  first_name,
+  species,
   count(*)
-FROM customers
-GROUP BY first_name;
+FROM penguins
+GROUP BY species;
 ```

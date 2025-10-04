@@ -1,35 +1,35 @@
 # Filtering
 
-Select all rows from the `customers` table where the `city` is "Amsterdam":
+Select all rows from the `penguins` table where the `species` is "Chinstrap":
 
 ```sql
 SELECT *
-FROM customers
-WHERE city = 'Amsterdam';
+FROM penguins
+WHERE species = 'Chinstrap';
 ```
 
-Select all rows from the `customers` table where the `customer_id` is 6 or 7:
+Select all rows from the `penguins` table where the `year` is 2007 or 2008:
 
 ```sql
 SELECT *
-FROM customers
+FROM penguins
 WHERE
-  customer_id = 6
-  OR customer_id = 7;
+  year = 2007
+  OR year = 2008;
 ```
 
-Select all rows from the `customers` table where the `first_name` includes "mark" (case-sensitive):
+Select all rows from the `penguins` table where the `sex` includes "male" (case-sensitive):
 
 ```sql
 SELECT *
-FROM customers
-WHERE first_name LIKE '%mark%';
+FROM penguins
+WHERE sex LIKE '%male%';
 ```
 
-Select all rows from the `customers` table where the `first_name` includes "mark" (case-insensitive):
+Select all rows from the `penguins` table where the `sex` includes "male" (case-insensitive):
 
 ```sql
 SELECT *
-FROM customers
-WHERE first_name ILIKE '%mark%';
+FROM penguins
+WHERE sex ILIKE '%male%';
 ```

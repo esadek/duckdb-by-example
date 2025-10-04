@@ -1,25 +1,25 @@
 # Ordering
 
-Select all columns from the `customers` table, ordered by `city` (ascending):
+Select all columns from the `penguins` table, ordered by `bill_length_mm` (ascending):
 
 ```sql
 SELECT *
-FROM customers
-ORDER BY city;
+FROM penguins
+ORDER BY bill_length_mm;
 ```
 
-Select all columns from the `customers` table, ordered by `city` (descending):
+Select all columns from the `penguins` table, ordered by `bill_length_mm` (descending):
 
 ```sql
 SELECT *
-FROM customers
-ORDER BY city DESC;
+FROM penguins
+ORDER BY bill_length_mm DESC;
 ```
 
-Select all columns from the `customers` table, ordered by `country` then `city`:
+Select all columns from the `penguins` table, ordered by `species` then `bill_length_mm`:
 
 ```sql
 SELECT *
-FROM customers
-ORDER BY country, city;
+FROM penguins
+ORDER BY species, bill_length_mm;
 ```

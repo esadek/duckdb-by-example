@@ -1,26 +1,26 @@
 # Limit and Offset
 
-Select the first 10 rows from the `customers` table:
+Select the first 10 rows from the `penguins` table:
 
 ```sql
 SELECT *
-FROM customers
+FROM penguins
 LIMIT 10;
 ```
 
-Select the first 25% of rows from the `customers` table:
+Select the first 25% of rows from the `penguins` table:
 
 ```sql
 SELECT *
-FROM customers
+FROM penguins
 LIMIT 25%;
 ```
 
-Select 10 rows from the `customers` table, starting at position 5:
+Select 10 rows from the `penguins` table, starting at position 5:
 
 ```sql
 SELECT *
-FROM customers
+FROM penguins
 LIMIT 10
 OFFSET 5;
 ```

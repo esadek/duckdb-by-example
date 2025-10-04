@@ -3,9 +3,11 @@
 Create a CTE named `people` and use it in the main query:
 
 ```sql
-WITH people AS (
-  SELECT 'Mark' AS first_name
+WITH chinstrap_penguins AS (
+  SELECT *
+  FROM penguins
+  WHERE species = 'Chinstrap'
 )
 SELECT *
-FROM people;
+FROM chinstrap_penguins;
 ```

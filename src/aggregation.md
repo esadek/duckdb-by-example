@@ -1,18 +1,18 @@
 # Aggregation
 
-Select the sum of the `amount` column:
+Select the average of the `bill_length_mm` column:
 
 ```sql
-SELECT sum(amount)
-FROM sales;
+SELECT avg(bill_length_mm)
+FROM penguins;
 ```
 
-Select the sum of the `amount` column, grouped by `country`:
+Select the maximum of the `bill_length_mm` column, grouped by `species`:
 
 ```sql
 SELECT
-  country,
-  sum(amount)
-FROM sales
-GROUP BY country;
+  species,
+  max(bill_length_mm)
+FROM penguins
+GROUP BY species;
 ```
