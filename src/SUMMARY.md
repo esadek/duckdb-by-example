@@ -13,3 +13,4 @@
 - [Casting](./casting.md)
 - [Common Table Expressions](./common_table_expressions.md)
 - [Window Functions](./window_functions.md)
+- [Parquet](./parquet.md)
