@@ -18,4 +18,5 @@
 
 - [CSV](./csv.md)
 - [TSV](./tsv.md)
+- [JSON](./json.md)
 - [Parquet](./parquet.md)
