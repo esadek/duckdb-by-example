@@ -17,4 +17,5 @@
 # File Formats
 
 - [CSV](./csv.md)
+- [TSV](./tsv.md)
 - [Parquet](./parquet.md)
